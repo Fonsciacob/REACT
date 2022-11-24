@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItem/> release snapshot 1`] = `
+<div>
+  <div
+    class="p-2 overflow-hidden"
+  >
+    <img
+      class=""
+      src="https://one-punch.com/saitama.jpg"
+    />
+  </div>
+</div>
+`;
