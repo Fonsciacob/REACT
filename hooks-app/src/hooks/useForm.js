@@ -12,12 +12,13 @@ export const useForm = (initialForm = {}) => {
     });
   };
 
-  const onResetForm = (event) => {
+  const onResetForm = () => {
     event.preventDefault();
     setFormState(initialForm);
   };
 
   return {
+    ...formState,
     formState,
     onInputChange,
     onResetForm,

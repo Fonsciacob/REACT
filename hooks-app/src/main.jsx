@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { CallbackHooks } from './memos/CallbackHooks';
-import { Padre } from './work-memo/Padre';
+import './useReducer/intro-reducer';
+
+import { MainApp } from './useContext/MainApp';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  //<React.StrictMode>
-  <Padre />
-  //</React.StrictMode>
+  <BrowserRouter>
+    {/*<React.StrictMode>*/}
+    <MainApp />
+    {/*</React.StrictMode>*/}
+  </BrowserRouter>
 );
